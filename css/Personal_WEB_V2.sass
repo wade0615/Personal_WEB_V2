@@ -1,0 +1,139 @@
+$color_orange: #ff6e3a
+$color_blue: #eaeffa
+
+
+*
+    font-family: Dancing Script,微軟正黑體
+    // border: solid 1px #666
+    // debug
+    // header
+    //   display: none
+    // section
+    //   display: none
+    // section#section_future
+    //   display: block
+
+// body
+//     height: 2000px
+
+header.jumbotron
+    text-align: center
+    background-image: url(https://i.imgur.com/6HwnGUl.jpg)
+    background-size: cover
+    // background-attachment: fixed
+    background-position: center center
+    margin-bottom: 0px
+    height: 700px
+    .container
+        color: white
+        padding: 200px 0px
+    h1
+        font-weight: bold
+    hr
+        max-width: 80px
+        border: solid 2px $color_orange
+    h4
+        color: rgba(white,0.8)
+        font-weight: normal
+
+section
+    padding: 50px 0px
+
+section#section_me
+    border: solid 1px black
+    background-color: $color_blue
+    .container
+        border: solid 1px white
+        // margin-left: 0
+        // height: 500px
+    .col-sm-4.img
+        background-image: url(https://i.imgur.com/8XYAKz5.jpg)
+        background-size: cover
+        background-position: center center
+        height: 600px
+        border-radius: 5px
+        // mix-blend-mode: multiply
+    .col-sm-8
+        border: solid 1px white
+        margin-left: -40px
+        .title
+            border: solid 1px white
+            margin-top: 230px
+            color: #EE1818
+            h1
+                font-weight: bold
+        .content
+            border: solid 1px white
+            height: 180px
+            width: 500px
+            background-color: $color_blue
+            p
+                border: solid 1px white
+                margin-left: 30px
+                padding-top: 10px
+            
+
+
+section#section_skill
+    background-color: $color_blue
+    text-align: right
+    .container
+        // border: solid 1px white
+        height: 500px
+    .col-sm-6.img
+        background-image: url(https://images3.alphacoders.com/876/thumb-1920-876455.jpg)
+        background-size: cover
+        background-position: center
+        height: 455px
+        border-radius: 5px
+        // mix-blend-mode: multiply
+    .col-sm-6.txt
+        z-index: 1
+        // border: solid 1px green
+        margin-right: -40px
+        .title
+            margin-top: 120px
+            padding: 0px 0px
+            color: #EE1818
+            h1
+                font-weight: bold
+        .content
+            // border: solid 1px white
+            height: 180px
+            background-color: $color_blue
+            p
+                // border: solid 1px white
+                margin-right: 30px
+                padding-top: 10px
+
+section#section_works
+    background-color: $color_blue
+    border: solid 1px black
+    .container
+        border: solid 1px white
+    .col-sm-7.img
+        background-image: url(https://i.imgur.com/CyyKPd7.jpg)
+        background-size: cover
+        background-position: center
+        height: 455px
+        // mix-blend-mode: multiply
+    h2
+        margin-top: 130px
+        padding: 0px 20px
+        color: #EE1818
+
+footer.jumbotron
+    text-align: center
+    background-color: #183168
+    margin-bottom: 0px
+    color: white
+    input
+        background-color: transparent
+        max-width: 350px
+        text-align: center
+        margin-left: auto
+        margin-right: auto
+
+    hr
+        max-width: 50px
+        border: solid 2px $color_orange
