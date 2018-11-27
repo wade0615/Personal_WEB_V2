@@ -17,9 +17,25 @@
 </head>
 
 <body>
-    <nav>
-        這裡放導覽列
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand">Wade WU</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#section_me">關於我 ME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section_skill">技能 SKILL</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section_works">作品 WORKS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#section_future">未來 FUTURE</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
+
     <header class="jumbotron">
         <div class="container">
             <h4>Do What Ever Just</h4>
@@ -54,7 +70,55 @@
                         <h1>What can i do</h1>
                     </div>
                     <div class="content">
-                        <p>這裡放ul il 技能並做bar條</p>
+                        <!-- <p>這裡放ul il 技能並做bar條</p> -->
+                        <div class="row">
+                            <div class="col-12">
+                                <ul class="skill-content">
+                                    <li>
+                                        <h3>HTML CSS</h3>
+                                        <p>熟悉語法，已在多個作品中反覆練習。</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h3>SASS</h3>
+                                        <p>有基礎掌握並能用在開發上。</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h3>jQuery</h3>
+                                        <p>使用 jQuery 做出網頁動態效果，也能與 CSS 做搭配。</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 50%"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h3>JavaScript</h3>
+                                        <p>對於變數、迴圈、函式、DOM 的操作以及 AJAX 有基礎的了解。</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 40%"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h3>Bootstrap</h3>
+                                        <p>了解 Bootstrap 系統，能適時導入專案加快開發效率</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 60%"></div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h3>Git</h3>
+                                        <p>Git 基礎使用、將專案 push 到 GitHub 做雲端存儲與版本控制。</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 65%"></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-6 img"></div>
@@ -65,9 +129,25 @@
     <section id="section_works">
         <div class="container">
             <div class="row">
-                <div class="col-sm-7 img"></div>
-                <div class="col-sm-3">
-                    <h2>My works</h2>
+                <div class="col-sm-4 img"></div>
+                <div class="col-sm-8">
+                    <div class="title">
+                        <h1>My works</h1>
+                    </div>
+                    <div class="content">
+                        <ul class="works-content row">
+                            <li class="col-sm-6">
+                                <h3>ROBOT</h3>
+                                <p>HTML CSS SASS Bootstrap RWD</p>
+                                <img src="https://i.imgur.com/rDYF9nE.png" class="">
+                            </li>
+                            <li class="col-sm-6">
+                                <h3>Budget</h3>
+                                <p>HTML CSS SASS Bootstrap RWD</p>
+                                <img src="https://i.imgur.com/tZTqP6S.png" class="">
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
