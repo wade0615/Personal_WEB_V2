@@ -136,10 +136,6 @@ section#section_works {
   background-color: #eaeffa;
 }
 
-section#section_works .container {
-  border: solid 1px white;
-}
-
 section#section_works .container .col-sm-4.img {
   background-image: url(https://i.imgur.com/CyyKPd7.jpg);
   background-size: cover;
@@ -165,16 +161,21 @@ footer.jumbotron {
   color: white;
 }
 
-footer.jumbotron input {
-  background-color: transparent;
-  max-width: 350px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+footer.jumbotron a {
+  margin-left: 10px;
 }
 
 footer.jumbotron hr {
   max-width: 50px;
   border: solid 2px #ff6e3a;
+}
+
+footer.jumbotron ul {
+  text-align: left;
+  list-style-type: none;
+}
+
+footer.jumbotron ul span {
+  padding-left: 5px;
 }
 /*# sourceMappingURL=Personal_WEB_V2.css.map */
