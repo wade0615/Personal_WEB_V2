@@ -25,7 +25,7 @@ header.jumbotron {
   background-size: cover;
   background-position: 30% center;
   margin-bottom: 0px;
-  height: 700px;
+  height: 100vh;
 }
 
 header.jumbotron .container {
