@@ -7,13 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
     <title>Wade WU</title>
     <link rel="stylesheet" href="css/Personal_WEB_V2.css">
+    <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <!-- aos滑動特效 -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Dancing+Scripty字體 -->
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+    <!-- Rajdhani字體 -->
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani:400,700" rel="stylesheet">
+    <!-- Noto Sans TC中文字 -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,700&amp;subset=chinese-traditional" rel="stylesheet">
 
+    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <!-- aos滑動特效 -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -39,9 +52,9 @@
 
     <header class="jumbotron" id="skrollr-body">
         <div class="container">
-            <h4>Do What Ever Just</h4>
+            <h4 data-aos="fade-down" data-aos-delay="100">Do What Ever Just</h4>
             <hr/>
-            <h1>STAY ALIVE</h1>
+            <h1 data-aos="fade-up" data-aos-delay="900">STAY ALIVE</h1>
         </div>
     </header>
 
@@ -50,10 +63,10 @@
             <div class="row">
                 <div class="col-sm-4 img"></div>
                 <div class="col-sm-8">
-                    <div class="title">
+                    <div class="title" data-aos="fade-left">
                         <h1>Who am I</h1>
                     </div>
-                    <div class="content row">
+                    <div class="content row" data-aos="fade-left" data-aos-delay="800">
                         <p class="col-sm-10">大家好，我叫吳書瑋，畢業於國立宜蘭大學 生物機電工程學系，畢業後先本科專業的機械領域打轉一陣子，因緣際會之下接觸到網頁前端，深受其吸引，覺得能藉由程式碼感受到立即性的回饋，便埋首進入程式碼的世界之中。<br>
                             <br>目前已有約半年的學習經驗，持續藉由線上課程與跟一些業界前輩們討論學習，較常使用的是 HTML、SASS、RWD、jQuery，並利用 Github 在筆電與桌機間切換使用。最近想更深入的學習加強 JavaScript 與 Vue.js 等技能，網頁的領域還很深很廣，一直持續保持學習中。
                         </p>
@@ -68,49 +81,48 @@
             <div class="row">
                 <div class="col-sm-6 txt">
                     <div class="title">
-                        <h1>What can i do</h1>
+                        <h1 data-aos="fade-right">What can i do</h1>
                     </div>
                     <div class="content">
-                        <!-- <p>這裡放ul il 技能並做bar條</p> -->
                         <div class="row">
                             <div class="col-12">
                                 <ul class="skill-content">
-                                    <li>
+                                    <li data-aos="fade-right" data-aos-delay="500">
                                         <h3>HTML CSS</h3>
                                         <p>熟悉語法，已在多個作品中反覆練習。</p>
                                         <div class="progress">
                                             <div class="progress-bar" role="progressbar" style="width: 80%"></div>
                                         </div>
                                     </li>
-                                    <li>
+                                    <li data-aos="fade-right" data-aos-delay="700">
                                         <h3>SASS</h3>
                                         <p>有基礎掌握並能用在開發上。</p>
                                         <div class="progress">
                                             <div class="progress-bar" role="progressbar" style="width: 80%"></div>
                                         </div>
                                     </li>
-                                    <li>
+                                    <li data-aos="fade-right" data-aos-delay="900">
                                         <h3>jQuery</h3>
                                         <p>使用 jQuery 做出網頁動態效果，也能與 CSS 做搭配。</p>
                                         <div class="progress">
                                             <div class="progress-bar" role="progressbar" style="width: 50%"></div>
                                         </div>
                                     </li>
-                                    <li>
+                                    <li data-aos="fade-right" data-aos-delay="1100">
                                         <h3>JavaScript</h3>
                                         <p>對於變數、迴圈、函式、DOM 的操作以及 AJAX 有基礎的了解。</p>
                                         <div class="progress">
                                             <div class="progress-bar" role="progressbar" style="width: 40%"></div>
                                         </div>
                                     </li>
-                                    <li>
+                                    <li data-aos="fade-right" data-aos-delay="1300">
                                         <h3>Bootstrap</h3>
                                         <p>了解 Bootstrap 系統，能適時導入專案加快開發效率</p>
                                         <div class="progress">
                                             <div class="progress-bar" role="progressbar" style="width: 60%"></div>
                                         </div>
                                     </li>
-                                    <li>
+                                    <li data-aos="fade-right" data-aos-delay="1500">
                                         <h3>Git</h3>
                                         <p>Git 基礎使用、將專案 push 到 GitHub 做雲端存儲與版本控制。</p>
                                         <div class="progress">
@@ -129,7 +141,7 @@
 
     <section id="section_future">
         <div class="container">
-            <div class="pg3">
+            <div class="pg3" data-aos="zoom-in-up">
                 <div class="pg3_child now">
                     <h3>NOW</h3>
                     <div class="time">2018.6 - 2018.12</div>
@@ -164,17 +176,17 @@
                     </div>
                     <div class="content">
                         <ul class="works-content row">
-                            <li class="col-sm-6">
+                            <li class="col-sm-6" data-aos="flip-right">
                                 <h3>ROBOT</h3>
                                 <p>HTML CSS SASS Bootstrap RWD</p>
                                 <a href="https://wswade.me/robot/"><img src="https://i.imgur.com/rDYF9nE.png" class=""></a>
                             </li>
-                            <li class="col-sm-6">
+                            <li class="col-sm-6" data-aos="flip-right" data-aos-delay="500">
                                 <h3>Budget</h3>
                                 <p>HTML CSS SASS Bootstrap RWD</p>
                                 <a href="https://wswade.me/budget/www/"><img src="https://i.imgur.com/eELXS6d.png" class=""></a>
                             </li>
-                            <li class="col-sm-6">
+                            <li class="col-sm-6" data-aos="flip-right">
                                 <h3>Hogwarts</h3>
                                 <p>HTML SASS RWD jQuery</p>
                                 <a href="https://wswade.me/hogwarts/"><img src="https://i.imgur.com/mVxpToN.png" class=""></a>
@@ -213,7 +225,6 @@
         </div>
     </footer>
 
-    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script> -->
     <script type="text/javascript" src="js/Personal_WEB_V2.js"></script>
 </body>
 

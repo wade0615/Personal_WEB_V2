@@ -1,9 +1,11 @@
-// $(document).addEventListener('touchmove', function() {}, { passive: false })
-// $(window).addEventListener(
-//     'touchmove', function(){ $(passive).false }
-//     )
-// var s = skrollr.init(); //初始化
+AOS.init({
+    anchorplacement: "bottom-bottom",
+    duration: 1000, //動畫持續時間
+    delay: 600, //延遲時間在進行動畫
+    easing: 'ease', //動畫曲線 linear,ease-in-sine,ease-in-back,ease-out-cubic
+    // offset: 1000, //?????
 
+});
 
 $(document).ready(function() {
     if ($(window).width() < 769) {
@@ -22,6 +24,13 @@ $(document).ready(function() {
         $("#section_works .container .col-sm-4.img").removeClass("img");
         $("#section_works .container .content").css("text-align", "right");
 
+        AOS.init({
+            anchorplacement: "bottom-bottom",
+            duration: 800, //動畫持續時間
+            delay: 0, //延遲時間在進行動畫
+            easing: 'linear', //動畫曲線 linear,ease-in-sine,ease-in-back,ease-out-cubic
+
+        });
     }
 });
 
@@ -36,9 +45,3 @@ $(".pg3_child").click(function() {
 //         $(".window").text(scrollVal);
 //     });
 // });
-
-
-// var scrollVal = $(window).scrollTop();
-// if (scrollVal = 400) {
-//     $(".window").css("color", "white");
-// }
