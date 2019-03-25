@@ -150,6 +150,10 @@ section#section_future .pg3_child {
   overflow: hidden;
 }
 
+section#section_future .NEXT {
+  color: #fefefe;
+}
+
 section#section_future .jackwell {
   background-color: #74d2e7;
   font-weight: bold;
