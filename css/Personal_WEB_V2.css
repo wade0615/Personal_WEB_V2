@@ -189,16 +189,17 @@ section#section_future .time {
 }
 
 section#section_future h3 {
+  font-size: 24px;
   top: 0px;
   position: absolute;
   display: inline-block;
   margin: 0px;
   padding: 0px;
   z-index: 1;
-  left: 30px;
+  left: 20px;
   height: 60px;
   width: 60%;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-left: 0px;
   -webkit-transition-duration: 1.5s;
           transition-duration: 1.5s;
@@ -206,7 +207,7 @@ section#section_future h3 {
 }
 
 section#section_future h3:hover {
-  left: 60px;
+  left: 50px;
 }
 
 section#section_future .time {
