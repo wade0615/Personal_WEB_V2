@@ -37,8 +37,13 @@ $(document).ready(function() {
 });
 
 $(".pg3_child").click(function() {
-    $(this).css("height", "300px")
-        .siblings().css("height", "60px");
+    if ($(this).height() < 100) {
+        $(this).css("height", "300px")
+            .siblings().css("height", "60px");
+    } else if ($(this).height() > 100) {
+        $(this).css("height", "60px")
+            .siblings().css("height", "60px");
+    }
 });
 
 // $(function() {
