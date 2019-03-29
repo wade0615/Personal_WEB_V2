@@ -1,5 +1,6 @@
 AOS.init({
     anchorplacement: "bottom-bottom",
+    once: true, //是否重複執行
     duration: 1000, //動畫持續時間
     delay: 600, //延遲時間在進行動畫
     easing: 'ease', //動畫曲線 linear,ease-in-sine,ease-in-back,ease-out-cubic
